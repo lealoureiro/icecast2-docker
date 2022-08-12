@@ -1,7 +1,6 @@
 ## Icecast2 Docker Image
 
 Simple docker image build for running [icecast2](https://icecast.org/) in a container. \
-Just mount your icecast2.xml file and you are good to go!
 
 ### Installation
 
