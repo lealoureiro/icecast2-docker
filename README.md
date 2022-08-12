@@ -16,7 +16,7 @@ Just mount your icecast2.xml file and you are good to go!
 
 ### Configuration
 
-Icecast2 cannot and shoult not run as root user, so make sure your run your container with a specific user and group.
+Icecast2 cannot and should not run as root user, so make sure your run your container with a specific user and group.
 
 Mount folder counting your `icecast2.xml` to `/app/conf`. You can find sample `icecast2.xml` config file in conf folder. Make sure the file is readable by the run user.\
 Mount folder for application to store logs to `/app/log`. Make sure the selected user can write on the folder.
