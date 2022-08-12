@@ -1,6 +1,6 @@
 ## Icecast2 Docker Image
 
-Simple docker image build for running [icecast2](https://icecast.org/) in a container.\
+Simple docker image build for running [icecast2](https://icecast.org/) in a container. 
 
 Feel free to contribute or give some suggestions or feedback!
 
