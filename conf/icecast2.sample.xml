@@ -21,8 +21,8 @@
     </listen-socket>
     <paths>
         <logdir>/app/log/</logdir>
-        <webroot>/app/content/web</webroot>
-        <adminroot>/app/content/admin</adminroot>
+        <webroot>/app/content/web</webroot> <!-- Only change if you plan to use custom templating outside container -->
+        <adminroot>/app/content/admin</adminroot> <!-- Only change if you plan to use custom templating outside container -->
         <alias source="/" destination="/status.xsl" />
     </paths>
     <logging>
